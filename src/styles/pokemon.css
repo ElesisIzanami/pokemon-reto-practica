@@ -1,0 +1,124 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Trispace', sans-serif;
+}
+
+body {
+   background-image: url(https://wallpapermoon.com/wp-content/uploads/2021/07/00160188.jpg);
+}
+nav {
+    background: -webkit-linear-gradient(70deg, Orange 30%, yellow 70%);
+    box-shadow: 0rem 2rem 4rem 2rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+
+}
+nav .list {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    width: 100%;
+    margin-left: 4.5rem;
+}
+
+
+.list li {
+    border-radius: 1rem;
+    box-shadow: 0.5rem 1rem 3rem 0.5rem;
+    font-size: 2rem;
+    margin: 0 1rem;
+    padding: 0 2rem;
+    cursor: pointer;
+}
+
+.list li a {
+    text-decoration: none;
+}
+
+.container {
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemon {
+   
+    border-radius: 1rem;
+    box-shadow: 0.5rem 1rem 3rem 0.5rem;
+    margin: 2rem;
+    width: 100%;
+    min-width: 260px; 
+    max-width: 260px;
+}
+
+
+.pokemon p {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.gengar {
+    background: -webkit-linear-gradient(70deg, black 30%, blueviolet 70%);
+
+}
+
+.charizard {
+    background: -webkit-linear-gradient(70deg, yellow 30%, orange 70%);
+}
+
+.pikachu {
+    background: -webkit-linear-gradient(70deg, black 20%, yellow 70%);
+}
+
+.dialga {
+    background: -webkit-linear-gradient(70deg, silver 20%, slateblue 70%);
+}
+
+.cinderance {
+    background: -webkit-linear-gradient(70deg, yellow 30%, orange 70%);
+}
+
+.blastoise {
+    background: -webkit-linear-gradient(70deg, white 10%, skyblue 70%);
+}
+
+.zoroark {
+    background: -webkit-linear-gradient(70deg, black 20%, grey 70%);
+}
+
+.delphox {
+    background: -webkit-linear-gradient(70deg, yellow 30%, orange 70%);
+}
+
+.umbreon {
+    background: -webkit-linear-gradient(70deg, black 20%, grey 70%);
+}
+
+.lucario {
+    background: -webkit-linear-gradient(70deg, skyblue 20%, silver 70%);
+}
+/*
+@media (min-width: 600px) {
+    .pokemon {
+        width: 50%;
+    }
+}
+
+@media (min-width: 800px){
+   
+    .pokemon {
+        width: 20%;
+    }
+}
